@@ -732,6 +732,12 @@ margin-left: 75px;
         margin-top: 50px;
     }
 }
+@media (max-width:550px){
+    .premium .title-pack{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+}
 /* End pricing */
 
 /* Footer */
