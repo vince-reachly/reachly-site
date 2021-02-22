@@ -165,8 +165,7 @@ body{
     height: 91vh;
    display: flex;
    flex-direction: column;
-   align-items: center; 
-    
+   align-items: center;    
 }
 .hero-container .text{
     text-align: center;
@@ -219,7 +218,7 @@ span{
     padding: 20px 89px;
     border-radius: 10px;
     box-shadow: 0px 18px 50px -15px rgba(0, 0, 0, 0.1);
-    z-index: 100;
+   
 }
 .hero-container .stats .stat1{
     margin-right: 49px;
@@ -337,7 +336,20 @@ span{
     .hero-container{
         height: 130vh;
     }
+    .hero-container .text .unleash {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .hero-container .text .description {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
+
 
 /* End head section */
 
@@ -355,6 +367,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .features{
     display: flex;
@@ -412,11 +425,23 @@ h2{
     }
     .lead{
         margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
     .reporting{
         margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .target{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
 }
+
 /* End features */
 
 .icp{
@@ -541,6 +566,24 @@ margin-left: 75px;
         margin-left: 0px;
     }
 
+}
+@media (max-width:500px){
+    .icp-img{
+        width: 250px;
+        height: 250px;
+    } 
+    .icp-img img{
+        width: 250px;
+        height: 250px;
+    }
+    .cc-img{
+        width: 250px;
+        height: 250px;
+    } 
+    .cc-img img{
+        width: 250px;
+        height: 250px;
+    }
 }
 /* End features big */
 
@@ -733,9 +776,15 @@ margin-left: 75px;
     }
 }
 @media (max-width:550px){
+    .premium{
+        width: 90%;
+    }
     .premium .title-pack{
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .basic{
+        width: 80%;
     }
 }
 /* End pricing */
@@ -817,6 +866,11 @@ margin-right: 10%;
     }
     .footer-logo a{
         margin-bottom: 20px;
+    }
+}
+@media (max-width:600px){
+    .footer-logo img{
+        width: 80%;
     }
 }
 /* End Footer */
