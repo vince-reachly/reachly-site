@@ -329,7 +329,7 @@ span{
         margin-top: 15px;
     }
     .hero-container{
-        height: 115vh;
+        height: 130vh;
     }
 }
 @media(max-width:640px) {
@@ -347,6 +347,11 @@ span{
         margin-right: 0px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+}
+@media (max-height:800px){
+    .hero-container{
+        height: 130vh;
     }
 }
 
