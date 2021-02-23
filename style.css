@@ -162,10 +162,10 @@ body{
 /* Head Section */
 
 .hero-container {
-    height: 91vh;
    display: flex;
    flex-direction: column;
-   align-items: center;    
+   align-items: center; 
+   padding-bottom: 10rem;   
 }
 .hero-container .text{
     text-align: center;
@@ -328,14 +328,8 @@ span{
         margin-right: 0px;
         margin-top: 15px;
     }
-    .hero-container{
-        height: 130vh;
-    }
 }
 @media(max-width:640px) {
-    .hero-container{
-        height: 130vh;
-    }
     .hero-container .text .unleash {
         margin-left: 0px;
         margin-right: 0px;
@@ -349,14 +343,10 @@ span{
         padding-right: 5px;
     }
 }
-@media (max-height:800px){
-    .hero-container{
-        height: 130vh;
-    }
-}
 
 
 /* End head section */
+
 
 /* Main section */
 
